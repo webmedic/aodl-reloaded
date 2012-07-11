@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+
+  DO NOT ALTER OR REMOVE COPYRIGHT NOTICES OR THIS FILE HEADER
+
+  Copyright 2008 Sun Microsystems, Inc. All rights reserved.
+
+  Use is subject to license terms.
+
+  Licensed under the Apache License, Version 2.0 (the "License"); you may not
+  use this file except in compliance with the License. You may obtain a copy
+  of the License at http://www.apache.org/licenses/LICENSE-2.0. You can also
+  obtain a copy of the License at http://odftoolkit.org/docs/license.txt
+
+  Unless required by applicable law or agreed to in writing, software
+  distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+  WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+
+  See the License for the specific language governing permissions and
+  limitations under the License.
+
+-->
+
+<VisualState xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ShowCheckBoxes="false">
+  <TopNode>[0-1000]C:\testprojects\aodl\AODL_jollans\odftoolkit\aodl\AODLTest\AODLTest.nunit</TopNode>
+  <SelectedNode>[0-1002]AODLTest.AARunMeFirstAndOnce.AARunMeFirstAndOnceDir</SelectedNode>
+  <ExcludeCategories>false</ExcludeCategories>
+  <Nodes>
+    <Node UniqueName="[0-1000]C:\testprojects\aodl\AODL_jollans\odftoolkit\aodl\AODLTest\AODLTest.nunit" Expanded="true">
+      <Nodes>
+        <Node UniqueName="[0-1118]C:\testprojects\aodl\AODL_jollans\odftoolkit\aodl\AODLTest\bin\Debug\AODLTest.dll" Expanded="true">
+          <Nodes>
+            <Node UniqueName="[0-1119]AODLTest" Expanded="true">
+              <Nodes>
+                <Node UniqueName="[0-1001]AODLTest.AARunMeFirstAndOnce" Expanded="true">
+                  <Nodes>
+                    <Node UniqueName="[0-1002]AODLTest.AARunMeFirstAndOnce.AARunMeFirstAndOnceDir" />
+                  </Nodes>
+                </Node>
+                <Node UniqueName="[0-1003]AODLTest.DocumentImportTest">
+                  <Nodes>
+                    <Node UniqueName="[0-1008]AODLTest.DocumentImportTest.ComplexCalcLoadTest" />
+                    <Node UniqueName="[0-1011]AODLTest.DocumentImportTest.CsvToOpenDocumentSpreadsheet" />
+                    <Node UniqueName="[0-1007]AODLTest.DocumentImportTest.SimpleCalcLoadTest" />
+                    <Node UniqueName="[0-1005]AODLTest.DocumentImportTest.SimpleLoad1Test" />
+                    <Node UniqueName="[0-1004]AODLTest.DocumentImportTest.SimpleLoadTest" />
+                    <Node UniqueName="[0-1006]AODLTest.DocumentImportTest.SimpleTocLoadTest" />
+                    <Node UniqueName="[0-1009]AODLTest.DocumentImportTest.TextDocumentWithImgMapReload" />
+                    <Node UniqueName="[0-1010]AODLTest.DocumentImportTest.TextToOpenDocumentText" />
+                  </Nodes>
+                </Node>
+                <Node UniqueName="[0-1012]AODLTest.FieldsTest">
+                  <Nodes>
+                    <Node UniqueName="[0-1020]AODLTest.FieldsTest.ContentFieldsBindingTest" />
+                    <Node UniqueName="[0-1021]AODLTest.FieldsTest.ContentFieldsBindingTest2" />
+                    <Node UniqueName="[0-1022]AODLTest.FieldsTest.ContentFieldsBindingTest3" />
+                    <Node UniqueName="[0-1013]AODLTest.FieldsTest.DateTimeConverterTest" />
+                    <Node UniqueName="[0-1017]AODLTest.FieldsTest.PageNumberTest" />
+                    <Node UniqueName="[0-1015]AODLTest.FieldsTest.PlaceholderTest" />
+                    <Node UniqueName="[0-1014]AODLTest.FieldsTest.SimpleDateFieldTest" />
+                    <Node UniqueName="[0-1016]AODLTest.FieldsTest.TextInputTest" />
+                    <Node UniqueName="[0-1018]AODLTest.FieldsTest.VariableDeclTest" />
+                    <Node UniqueName="[0-1019]AODLTest.FieldsTest.VariableSetTest" />
+                  </Nodes>
+                </Node>
+                <Node UniqueName="[0-1023]AODLTest.FrameTest">
+                  <Nodes>
+                    <Node UniqueName="[0-1027]AODLTest.FrameTest.DrawTextBox" />
+                    <Node UniqueName="[0-1026]AODLTest.FrameTest.EventListenerTest" />
+                    <Node UniqueName="[0-1025]AODLTest.FrameTest.FrameTestRead" />
+                    <Node UniqueName="[0-1024]AODLTest.FrameTest.FrameWriteTest" />
+                  </Nodes>
+                </Node>
+                <Node UniqueName="[0-1028]AODLTest.GraphicTest">
+                  <Nodes>
+                    <Node UniqueName="[0-1030]AODLTest.GraphicTest.Add2GraphicsWithSameNameFromDifferentLocations" />
+                    <Node UniqueName="[0-1036]AODLTest.GraphicTest.CreateFreePositionGraphic" />
+                    <Node UniqueName="[0-1032]AODLTest.GraphicTest.CreateIllustrationUsingTheFrameBuilder" />
+                    <Node UniqueName="[0-1031]AODLTest.GraphicTest.DrawTextBoxTest" />
+                    <Node UniqueName="[0-1029]AODLTest.GraphicTest.GraphicsTest" />
+                    <Node UniqueName="[0-1033]AODLTest.GraphicTest.ImageMapTest" />
+                    <Node UniqueName="[0-1035]AODLTest.GraphicTest.LoadFileDeleteGraphic" />
+                    <Node UniqueName="[0-1034]AODLTest.GraphicTest.LoadGraphicAccessGraphic" />
+                  </Nodes>
+                </Node>
+                <Node UniqueName="[0-1037]AODLTest.HTMLExportTest">
+                  <Nodes>
+                    <Node UniqueName="[0-1038]AODLTest.HTMLExportTest.HTMLExportTest1" />
+                    <Node UniqueName="[0-1039]AODLTest.HTMLExportTest.HTMLExportTest2" />
+                    <Node UniqueName="[0-1040]AODLTest.HTMLExportTest.HTMLExportTest3" />
+                    <Node UniqueName="[0-1042]AODLTest.HTMLExportTest.HTMLExportTestDocumentConvertedFromOpenOfficeXmlToOpenDocumentXml" />
+                    <Node UniqueName="[0-1041]AODLTest.HTMLExportTest.HTMLExportTestImageMap" />
+                  </Nodes>
+                </Node>
+                <Node UniqueName="[0-1043]AODLTest.IndexTest">
+                  <Nodes>
+                    <Node UniqueName="[0-1044]AODLTest.IndexTest.TableOfContentsTest" />
+                  </Nodes>
+                </Node>
+                <Node UniqueName="[0-1045]AODLTest.MastPageStylesTests">
+                  <Nodes>
+                    <Node UniqueName="[0-1048]AODLTest.MastPageStylesTests.FooterContentsTest" />
+                    <Node UniqueName="[0-1051]AODLTest.MastPageStylesTests.HeaderAndFooterCreateTest" />
+                    <Node UniqueName="[0-1047]AODLTest.MastPageStylesTests.HeaderContentsTest" />
+                    <Node UniqueName="[0-1049]AODLTest.MastPageStylesTests.HeaderContentsTest1" />
+                    <Node UniqueName="[0-1046]AODLTest.MastPageStylesTests.ImportTest1" />
+                    <Node UniqueName="[0-1050]AODLTest.MastPageStylesTests.RelocateLoadedStyleTest" />
+                  </Nodes>
+                </Node>
+                <Node UniqueName="[0-1052]AODLTest.MetaData">
+                  <Nodes>
+                    <Node UniqueName="[0-1053]AODLTest.MetaData.MetaDataDisplay" />
+                  </Nodes>
+                </Node>
+                <Node UniqueName="[0-1054]AODLTest.ODFFormsTest">
+                  <Nodes>
+                    <Node UniqueName="[0-1077]AODLTest.ODFFormsTest.ControlsClearTest" />
+                    <Node UniqueName="[0-1078]AODLTest.ODFFormsTest.FormsClearTest" />
+                    <Node UniqueName="[0-1079]AODLTest.ODFFormsTest.FormsRemoveTest" />
+                    <Node UniqueName="[0-1072]AODLTest.ODFFormsTest.GenericPropertiesTest" />
+                    <Node UniqueName="[0-1073]AODLTest.ODFFormsTest.HTMLExportTest" />
+                    <Node UniqueName="[0-1056]AODLTest.ODFFormsTest.NestedFormTest" />
+                    <Node UniqueName="[0-1058]AODLTest.ODFFormsTest.ODFButtonTest" />
+                    <Node UniqueName="[0-1059]AODLTest.ODFFormsTest.ODFCheckBoxTest" />
+                    <Node UniqueName="[0-1061]AODLTest.ODFFormsTest.ODFComboBoxTest" />
+                    <Node UniqueName="[0-1063]AODLTest.ODFFormsTest.ODFFileTest" />
+                    <Node UniqueName="[0-1064]AODLTest.ODFFormsTest.ODFFixedTextTest" />
+                    <Node UniqueName="[0-1065]AODLTest.ODFFormsTest.ODFFormattedTextTest" />
+                    <Node UniqueName="[0-1055]AODLTest.ODFFormsTest.ODFFrameTest" />
+                    <Node UniqueName="[0-1068]AODLTest.ODFFormsTest.ODFGridTest" />
+                    <Node UniqueName="[0-1057]AODLTest.ODFFormsTest.ODFHiddenAndFormActionTest" />
+                    <Node UniqueName="[0-1069]AODLTest.ODFFormsTest.ODFImageTest" />
+                    <Node UniqueName="[0-1071]AODLTest.ODFFormsTest.ODFListBoxAndComboBoxTest" />
+                    <Node UniqueName="[0-1062]AODLTest.ODFFormsTest.ODFListBoxTest" />
+                    <Node UniqueName="[0-1060]AODLTest.ODFFormsTest.ODFRadioButtonTest" />
+                    <Node UniqueName="[0-1066]AODLTest.ODFFormsTest.ODFTextAreaTest" />
+                    <Node UniqueName="[0-1067]AODLTest.ODFFormsTest.ODFValueRangeTest" />
+                    <Node UniqueName="[0-1070]AODLTest.ODFFormsTest.SaveLoadTest" />
+                    <Node UniqueName="[0-1074]AODLTest.ODFFormsTest.SpreadSheetFormsTest" />
+                    <Node UniqueName="[0-1075]AODLTest.ODFFormsTest.SpreadSheetImportExportTest" />
+                    <Node UniqueName="[0-1076]AODLTest.ODFFormsTest.StyleTest" />
+                  </Nodes>
+                </Node>
+                <Node UniqueName="[0-1080]AODLTest.OpenOfficeLibTests">
+                  <Nodes>
+                    <Node UniqueName="[0-1081]AODLTest.OpenOfficeLibTests.CreateNewDocumentAndDoAPrintOut" />
+                  </Nodes>
+                </Node>
+                <Node UniqueName="[0-1082]AODLTest.SpreadsheetBaseTest">
+                  <Nodes>
+                    <Node UniqueName="[0-1083]AODLTest.SpreadsheetBaseTest.CreateNewSpreadsheet" />
+                    <Node UniqueName="[0-1084]AODLTest.SpreadsheetBaseTest.CreateSimpleTable" />
+                    <Node UniqueName="[0-1085]AODLTest.SpreadsheetBaseTest.CreateTableFormatedText" />
+                    <Node UniqueName="[0-1086]AODLTest.SpreadsheetBaseTest.RowAndCellIterate" />
+                  </Nodes>
+                </Node>
+                <Node UniqueName="[0-1087]AODLTest.SpreadsheetChartTest">
+                  <Nodes>
+                    <Node UniqueName="[0-1088]AODLTest.SpreadsheetChartTest.CreateNewChart" />
+                    <Node UniqueName="[0-1093]AODLTest.SpreadsheetChartTest.LoadChart" />
+                    <Node UniqueName="[0-1094]AODLTest.SpreadsheetChartTest.LoadChartModifyTitle" />
+                    <Node UniqueName="[0-1090]AODLTest.SpreadsheetChartTest.NewChartWithAxises" />
+                    <Node UniqueName="[0-1092]AODLTest.SpreadsheetChartTest.NewChartWithCellRange" />
+                    <Node UniqueName="[0-1091]AODLTest.SpreadsheetChartTest.NewChartWithLegend" />
+                    <Node UniqueName="[0-1089]AODLTest.SpreadsheetChartTest.NewChartWithTitle" />
+                    <Node UniqueName="[0-1095]AODLTest.SpreadsheetChartTest.TestLengend" />
+                    <Node UniqueName="[0-1096]AODLTest.SpreadsheetChartTest.TestPlotArea" />
+                  </Nodes>
+                </Node>
+                <Node UniqueName="[0-1097]AODLTest.TextDocumentBaseTests">
+                  <Nodes>
+                    <Node UniqueName="[0-1102]AODLTest.TextDocumentBaseTests.BulletListTest" />
+                    <Node UniqueName="[0-1098]AODLTest.TextDocumentBaseTests.EmptyDocument" />
+                    <Node UniqueName="[0-1107]AODLTest.TextDocumentBaseTests.FootnoteText" />
+                    <Node UniqueName="[0-1105]AODLTest.TextDocumentBaseTests.HeadingFilledWithTextBuilder" />
+                    <Node UniqueName="[0-1104]AODLTest.TextDocumentBaseTests.HeadingsTest" />
+                    <Node UniqueName="[0-1110]AODLTest.TextDocumentBaseTests.InsertAndRemoveTest" />
+                    <Node UniqueName="[0-1108]AODLTest.TextDocumentBaseTests.IParagraphCollectionBuilderTest" />
+                    <Node UniqueName="[0-1103]AODLTest.TextDocumentBaseTests.ListItemTest" />
+                    <Node UniqueName="[0-1109]AODLTest.TextDocumentBaseTests.ManipulateACommonStyle" />
+                    <Node UniqueName="[0-1101]AODLTest.TextDocumentBaseTests.NumberedListTest" />
+                    <Node UniqueName="[0-1100]AODLTest.TextDocumentBaseTests.ParagraphFormatedText" />
+                    <Node UniqueName="[0-1099]AODLTest.TextDocumentBaseTests.ParagraphSimpleText" />
+                    <Node UniqueName="[0-1111]AODLTest.TextDocumentBaseTests.TestCloning" />
+                    <Node UniqueName="[0-1106]AODLTest.TextDocumentBaseTests.XLinkTest" />
+                  </Nodes>
+                </Node>
+                <Node UniqueName="[0-1112]AODLTest.TextDocumentTableTest">
+                  <Nodes>
+                    <Node UniqueName="[0-1117]AODLTest.TextDocumentTableTest.NestedTable" />
+                    <Node UniqueName="[0-1113]AODLTest.TextDocumentTableTest.SimpleTable" />
+                    <Node UniqueName="[0-1115]AODLTest.TextDocumentTableTest.SimpleTableWithList" />
+                    <Node UniqueName="[0-1116]AODLTest.TextDocumentTableTest.SimpleTableWithMergedCells" />
+                    <Node UniqueName="[0-1114]AODLTest.TextDocumentTableTest.SimpleTableWithRowHeaderAndBorder" />
+                  </Nodes>
+                </Node>
+              </Nodes>
+            </Node>
+          </Nodes>
+        </Node>
+      </Nodes>
+    </Node>
+  </Nodes>
+</VisualState>

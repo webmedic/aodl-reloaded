@@ -1,0 +1,194 @@
+﻿<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" xmlns:Conversion="urn:Conversion" ToolsVersion="3.5">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{6676AE5B-FC8A-49C2-A8E0-C8CAFC340890}</ProjectGuid>
+    <RootNamespace>AODLTest</RootNamespace>
+    <AssemblyName>AODLTest</AssemblyName>
+    <OutputType>Library</OutputType>
+    <ApplicationIcon />
+    <RunPostBuildEvent>OnBuildSuccess</RunPostBuildEvent>
+    <StartupObject />
+    <NoConfig>false</NoConfig>
+    <SourceAnalysisOverrideSettingsFile>C:\Documents and Settings\nn\Application Data\ICSharpCode/SharpDevelop3.0\Settings.SourceAnalysis</SourceAnalysisOverrideSettingsFile>
+    <TargetFrameworkVersion>v2.0</TargetFrameworkVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <NoStdLib>false</NoStdLib>
+    <WarningLevel>4</WarningLevel>
+    <DebugSymbols>true</DebugSymbols>
+    <Optimize>false</Optimize>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+    <CheckForOverflowUnderflow>false</CheckForOverflowUnderflow>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <OutputPath>bin\Debug\</OutputPath>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <DebugType>Full</DebugType>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <NoStdLib>false</NoStdLib>
+    <WarningLevel>4</WarningLevel>
+    <DebugSymbols>false</DebugSymbols>
+    <Optimize>true</Optimize>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+    <CheckForOverflowUnderflow>false</CheckForOverflowUnderflow>
+    <DefineConstants>TRACE</DefineConstants>
+    <OutputPath>bin\Release\</OutputPath>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Platform)' == 'AnyCPU' ">
+    <RegisterForComInterop>False</RegisterForComInterop>
+    <GenerateSerializationAssemblies>Auto</GenerateSerializationAssemblies>
+    <BaseAddress>4194304</BaseAddress>
+    <PlatformTarget>x86</PlatformTarget>
+    <FileAlignment>4096</FileAlignment>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="cli_basetypes">
+      <HintPath>..\libs\cli_basetypes.dll</HintPath>
+    </Reference>
+    <Reference Include="cli_cppuhelper">
+      <HintPath>..\libs\cli_cppuhelper.dll</HintPath>
+    </Reference>
+    <Reference Include="cli_types">
+      <HintPath>..\libs\cli_types.dll</HintPath>
+    </Reference>
+    <Reference Include="cli_ure">
+      <HintPath>..\libs\cli_ure.dll</HintPath>
+    </Reference>
+    <Reference Include="nunit.framework">
+      <HintPath>..\libs\nunit.framework.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Drawing" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AARunMeFirstAndOnce.cs" />
+    <Content Include="AODL_TEST_README.txt" />
+    <None Include="AODLTest.nunit" />
+    <None Include="App.config">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Files\AndrewMacro.odt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Files\AndrewMacroPart.odt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Files\bigtable.ods">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Files\blank.ods">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Files\CsvToOpenDocument.csv">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Files\draw-odg.odg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Files\draw.odt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Files\Eclipse_add_new_Class.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Files\graphic_free_pos.odt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Files\hallo.odt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Files\Howto_special_char.odt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Files\illu.odt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Files\ImageDocument.odt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Files\imgmap.odt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Files\OpenOffice.net.odt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Files\pagestyles.odt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Files\paragraph_with_page_break.odt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Files\ProgrammaticControlOfMenuAndToolbarItems.odt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Files\simpleCalc.ods">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Files\Simple_toc.odt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Files\stdpresentation.odp">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Files\TestChartOne.ods">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Files\testsheet.ods">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Files\TextToOpenDocument.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="generatedfiles\temp.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <Compile Include="AssemblyInfo.cs" />
+    <Compile Include="DocumentImportTest.cs" />
+    <Compile Include="Document\Content\Tables\Test1.cs" />
+    <Compile Include="Document\Styles\Test1.cs" />
+    <Compile Include="FieldsTest.cs" />
+    <Compile Include="FrameTest.cs" />
+    <Compile Include="GraphicTest.cs" />
+    <Compile Include="HTMLExportTest.cs" />
+    <Compile Include="IndexTest.cs" />
+    <Compile Include="MastPageStylesTests.cs" />
+    <Compile Include="MetaData.cs" />
+    <Compile Include="ODFFormsTest.cs" />
+    <Compile Include="OpenOfficeLibTests.cs" />
+    <Compile Include="Paragraphs\TestParagraph.cs" />
+    <Compile Include="Performance\IPerformanceCounter.cs" />
+    <Compile Include="Performance\PerformanceCounter.cs" />
+    <Compile Include="Performance\TestTablePerformance.cs" />
+    <Compile Include="Rows\Test1.cs" />
+    <Compile Include="SpreadsheetBaseTest.cs" />
+    <Compile Include="SpreadsheetChartTest.cs" />
+    <Compile Include="TextDocumentBaseTests.cs" />
+    <Compile Include="TextDocumentTableTest.cs" />
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <Folder Include="Document\Content" />
+    <Folder Include="Document\Content\Tables" />
+    <Folder Include="Document\Styles" />
+    <Folder Include="Files" />
+    <Folder Include="generatedfiles" />
+    <Folder Include="Document" />
+    <Folder Include="Rows" />
+    <Folder Include="Paragraphs" />
+    <Folder Include="Performance" />
+    <ProjectReference Include="..\AODL\AODL.csproj">
+      <Project>{89E926D3-3471-47C8-8D34-01FF2AF72F71}</Project>
+      <Name>AODL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\OpenOfficePrinter\OpenOfficeLib.csproj">
+      <Project>{D375D701-B8D5-48E4-AC6B-83D1201A7C78}</Project>
+      <Name>OpenOfficeLib</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.Targets" />
+</Project>
