@@ -1,0 +1,2 @@
+At the beginning of 2012 the site http://odftoolkit.org wasn't accessible anymore. And with the site all projects were suddenly gone.
+One project I use was AODL. Therefore I would like to give back the community the latest version of AODL hosted by odftoolkit.org ( + local fixes)
